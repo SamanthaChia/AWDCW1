@@ -1,0 +1,48 @@
+html, body{
+    margin:0px;
+    height:100%;
+}
+#header{
+    display:flex;
+    background-color: palevioletred;
+    justify-content: center;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+}
+
+#navigation_bar{
+    display:flex;
+    background-color: lightpink;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display:inline;
+}
+li a{
+    text-decoration: none;
+    padding-right:20px;
+    font-size: 20px;
+    color: black;
+}
+
+li a:hover{
+    color:white;
+}
+
+#content{
+    background-image: url("https://i.pinimg.com/originals/cc/f4/d8/ccf4d8c9807e30f200c52dcb754e6a6d.gif");
+    background-size: cover;
+    height:100%;
+}
+
+#content p{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
